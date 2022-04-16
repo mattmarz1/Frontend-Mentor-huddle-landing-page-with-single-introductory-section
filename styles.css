@@ -39,6 +39,7 @@ main {
     display: flex;
     gap: 3.125rem;
     justify-content: center;
+    transform: translateY(45px);
 }
 
 .intro-text-container {
@@ -122,6 +123,7 @@ i:hover {
     .main-content-flex-container {
         flex-direction: column;
         align-items: center;
+        transform: initial;
     }
 
     main {
